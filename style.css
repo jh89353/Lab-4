@@ -1,0 +1,66 @@
+body{
+	background-color: black;
+	background-image: url(images\curtains.jpg);
+	font-family: 'acumin-pro',sans-serif;
+	color: red;
+}
+.logo{
+	float: left;
+	height: 200px;
+	width: 200px;
+	position: sticky;
+	top: 0;
+	border: 1px white;
+}
+h1{
+	color: red;
+	clear: left;
+	font-family: 'acumin-pro',sans-serif;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	position: sticky;
+	font-family: 'acumin-pro',sans-serif;
+}
+li a{
+	color: white;
+	text-align: center;
+	display: block;
+	float: left;
+	padding: 14px;
+	font-family: 'acumin-pro',sans-serif;
+}
+.active{
+	background-color: red;
+}
+li a:hover:not(.active){
+	background-color: tomato;
+	font-family: 'acumin-pro',sans-serif;
+}
+h2{
+	color: white;
+	clear: left;
+	font-family: 'acumin-pro',sans-serif;
+}
+h3{
+	color: white;
+	font-family: 'acumin-pro',sans-serif;
+}
+li{
+	color: white;
+	font-family: 'acumin-pro',sans-serif;
+}
+i{
+	color: white;
+	float: right;
+	font-size: 30px;
+}
+img{
+	height: 150px;
+	width: 150px;
+	float: right;
+}
+a{
+	color: red;
+}
